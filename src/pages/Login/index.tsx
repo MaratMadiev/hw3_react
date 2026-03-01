@@ -10,7 +10,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const { user, token } = useAuth();
+  const { user } = useAuth();
 
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
